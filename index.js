@@ -30,3 +30,9 @@ function appendKitten(Broom){
   return newKittens
     
   }
+  
+function removeLastKitten(){
+var newKittens = [...kittens]
+newKittens.pop()
+return newKittens
+}
