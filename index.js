@@ -12,24 +12,26 @@ function destructivelyPrependKitten(Bob){
   return kittens
 }
 
-function destructivelyRemoveLastKitten(){
-  kittens.pop()
-  return kittens
-}
-
 function appendKitten(Broom){
   var newKittens = [...kittens]
   newKittens.push("Broom")
   return newKittens
   
 }
-  
-  function preprendKitten(Broom){
+
+ function preprendKitten(Broom){
   var newKittens = [...kittens]
   newKittens.unshift("Broom")
   return newKittens
     
   }
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop()
+  return kittens
+}
+
+
   
 function removeLastKitten(){
 var newKittens = [...kittens]
