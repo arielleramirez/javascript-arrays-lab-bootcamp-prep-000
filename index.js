@@ -20,4 +20,13 @@ function destructivelyRemoveLastKitten(){
 function appendKitten(Broom){
   var newKittens = [...kittens]
   newKittens.push("Broom")
-  return newKittens}
+  return newKittens
+  
+}
+  
+  function preprendKitten(Broom){
+  var newKittens = [...kittens]
+  newKittens.unshift("Broom")
+  return newKittens
+    
+  }
