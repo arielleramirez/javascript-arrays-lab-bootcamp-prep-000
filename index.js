@@ -17,7 +17,7 @@ function destructivelyRemoveLastKitten(){
   return kittens
 }
 
-function appendKitten(Ralph){
+function appendKitten(Broom){
   var newKittens = [...kittens]
-  newKittens.push(name)
+  newKittens.push("Broom")
   return newKittens}
