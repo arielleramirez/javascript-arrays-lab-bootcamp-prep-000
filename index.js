@@ -19,9 +19,9 @@ function appendKitten(Broom){
   
 }
 
- function prependKitten(Broom){
+ function prependKitten(Arnold){
   var newKittens = [...kittens]
-  newKittens.unshift("Broom")
+  newKittens.unshift("Arnold")
   return newKittens
     
   }
